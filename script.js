@@ -7,8 +7,8 @@ function updateHealthPoints(points) {
 	healthBar.style.width = points + "%";
 
 	if(healthPoints < 1) {
-		alert("Player 2 win!");//game over
-		//window.location.reload();
+		alert("Player 2 win!");
+		window.location.reload();
 	}
 
 }
@@ -23,8 +23,8 @@ function iShoot(enemy) {
 	enemy.classList.add("dead");
 
 	if(!livingEnemies().length) {
-		alert("Player 1 win!");//you win
-		//window.location.reload();
+		alert("Player 1 win!");
+		window.location.reload();
 	}
 
 }
