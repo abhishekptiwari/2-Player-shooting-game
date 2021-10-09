@@ -18,6 +18,7 @@
 	transition: width .5s;
 }
 
+
 .enemy {
 	width: 150px;
 	height: 400px;
@@ -26,6 +27,7 @@
 	bottom: -400px;
 	transition: all .5s;
 }
+
 
 .enemy.showing {
 	bottom: 0;
