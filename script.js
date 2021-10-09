@@ -30,6 +30,9 @@ function iShoot(enemy) {
 }
 
 
+
+
+
 function enemyAttacksMe(enemy) {
 
 	if(healthPoints > 0) {
@@ -43,6 +46,7 @@ function enemyAttacksMe(enemy) {
 		setTimeout(()=> {
 			enemy.classList.remove("showing");
 		}, 3000);
+		
 		
 	}
 
